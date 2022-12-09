@@ -105,4 +105,6 @@ vi /var/ossec/etc/ossec.conf
     </integration>
     
  ----------------------------------------------------------------------------------------------------------
+ # Default Alert level is 3, you can change to 12 or 10 for limit the 
+ # https://documentation.wazuh.com/current/user-manual/ruleset/rules-classification.html
  systemctl restart wazuh-manager
